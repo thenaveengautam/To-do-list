@@ -63,4 +63,10 @@ to-do-list/
 - Filter tasks (Completed / Pending / All)  
 - Drag & Drop tasks  
 - Dark mode  
-- Sync with backend API  
+- Sync with backend API
+
+---
+
+## 📜 License
+
+This project is open-source and available under the **MIT License**.
