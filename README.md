@@ -1,50 +1,66 @@
-📝 To-Do List App
+# 📝 To-Do List App
 
-A simple, clean, and interactive To-Do List Application that helps users add, delete, and manage daily tasks.
-Perfect beginner project to practice HTML, CSS, and JavaScript with basic CRUD-like operations.
+A simple and interactive **To-Do List Application** built using HTML, CSS, and JavaScript.  
+It allows users to add, delete, and manage daily tasks efficiently with a clean and modern UI.
 
-🚀 Features
+---
 
-✔️ Add new tasks
+## 🚀 Features
 
-✔️ Delete tasks
+- ➕ Add new tasks  
+- 🗑️ Delete tasks  
+- ✔️ Mark tasks as completed  
+- 💾 Tasks saved using LocalStorage (optional)  
+- 🎨 Clean and responsive UI  
+- ⚡ Fast and beginner-friendly project  
 
-✔️ Mark tasks as completed
+---
 
-✔️ Auto-update UI
+## 🛠️ Tech Stack
 
-✔️ Local Storage support (optional)
+- **HTML** – structure  
+- **CSS** – styling  
+- **JavaScript** – functionality & DOM handling  
 
-✔️ Clean and responsive design
+---
 
-✔️ Fast and beginner-friendly
+## 📁 Folder Structure
 
-📘 How It Works
+```
+to-do-list/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
 
-User enters a task into the input field
+---
 
-JavaScript creates a new list item
+## ▶️ How to Use
 
-Task is shown on screen with delete / complete buttons
+1. Enter your task in the input box  
+2. Click **Add**  
+3. Your task appears in the task list  
+4. Click ✔️ to mark complete  
+5. Click 🗑️ to delete the task  
 
-Tasks can be:
+---
 
-✔️ Added
+## 📘 Concepts Used
 
-✔️ Marked Completed
+- DOM Manipulation  
+- Event Listeners  
+- Array Handling  
+- LocalStorage (optional)  
+- Conditional Rendering  
 
-❌ Deleted
+---
 
-(Optional) Tasks are stored in localStorage, so they stay even after reload
+## 🚀 Future Enhancements
 
-▶️ How to Run Locally
-
-Clone or download the project
-
-git clone https://github.com/your-username/to-do-list.git
-
-Open project folder
-
-Run index.html in your browser
-
-Start adding your tasks ✨
+- Task edit feature  
+- Filter tasks (Completed / Pending / All)  
+- Drag & Drop tasks  
+- Dark mode  
+- Sync with backend API  
